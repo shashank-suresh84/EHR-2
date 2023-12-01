@@ -1,0 +1,58 @@
+export const healthinsurances = [
+  {
+    name: "Health Insurance 1",
+    description: "One Health that you need for all your needs",
+    instalments: 1000,
+    premiumamount: 10000,
+    ambulancecovered: false,
+    diseases: ["Fever", "Head Ache", "HeartAttack"],
+    indexeddiseases: [1, 2, 3],
+    policyterms: 10,
+    percentagecovered: 60,
+  },
+  {
+    name: "Health Insurance 2",
+    description: "One Health that you need for all your needs",
+    instalments: 1000,
+    premiumamount: 20000,
+    ambulancecovered: true,
+    diseases: ["HeartAttack", "Cancer"],
+    indexeddiseases: [3, 4],
+    policyterms: 10,
+    percentagecovered: 70,
+  },
+  {
+    name: "Health Insurance 3",
+    description: "One Health that you need for all your needs",
+    instalments: 1000,
+    premiumamount: 30000,
+    ambulancecovered: false,
+    diseases: ["Accident"],
+    indexeddiseases: [5],
+    policyterms: 10,
+    percentagecovered: 100,
+  },
+];
+export const lifeinsurances = [
+  {
+    name: "Life Insurance 1",
+    description: "One Life that you need for all your needs",
+    instalments: 1000,
+    premiumamount: 10000,
+    policyterms: 10,
+  },
+  {
+    name: "Life Insurance 2",
+    description: "One Life that you need for all your needs",
+    instalments: 1000,
+    premiumamount: 10000,
+    policyterms: 10,
+  },
+  {
+    name: "Life Insurance 3",
+    description: "One Life that you need for all your needs",
+    instalments: 1000,
+    premiumamount: 10000,
+    policyterms: 10,
+  },
+];
